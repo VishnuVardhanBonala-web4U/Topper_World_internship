@@ -1,0 +1,79 @@
+*{
+  margin: 0 !important ;
+  padding: 0 ;
+  box-sizing: border-box !important;
+}
+
+.logo{
+  margin: .2rem !important;
+  width: 2.5rem;
+}
+.nav-items li{
+margin: 1REM !important;
+}
+
+.entier_container{
+  width: 100vw;
+  height: 100vh;
+}
+body{
+  overflow: visible;
+  background: url("bg.png");
+  background-size: cover;
+}
+.body_heading h1{
+  margin: 5rem 0 1rem 5rem !important;
+  font-size: 4rem;
+}
+
+
+.body_heading .para,small,h4,h5,button{
+  color: #000;
+  margin: 0rem 0 1rem 5rem !important;
+
+
+}
+.body_heading .para{
+  font-weight: bold !important;
+  font-style: italic;
+}
+
+
+.body_heading small{
+  width: 25rem;
+}
+
+.social_icons i{
+  margin: .2rem  1rem 0 0 !important;
+  background: #f9f4f4 !important;
+  border-radius: .3rem !important;
+  font-size: 1.4rem !important;
+  box-shadow: 2px 3px 4px solid gray !important;
+
+}
+
+
+ /* Styles for mobile phones in portrait mode */
+@media  (max-width: 768px) {
+  body{
+    background: url("bg_mobile.png") !important;
+    background-size: cover  !important;
+  }
+ .entier_container{
+  width: 100vw;
+  height: 100vh;
+}
+.body_heading h1{
+  margin: 2rem 0 1rem 2rem !important;
+  font-size: 2rem;
+}
+.body_heading small{
+  width: 15rem;
+}
+.body_heading .para,small,h4,h5,button{
+  color: #000;
+  margin: .5rem 0 1rem 2rem !important;
+
+
+}
+}
